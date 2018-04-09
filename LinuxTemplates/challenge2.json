@@ -229,7 +229,7 @@
         "autoUpgradeMinorVersion": true,
         "settings": {
           "fileUris": [
-            "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/nylas-email-sync-engine/install.sh"
+            "https://raw.githubusercontent.com/ashapoms/RootConf/master/LinuxTemplates/deploynginx.sh"
           ],
           "commandToExecute": "[concat('sh deploynginx.sh ', parameters('adminUsername'))]"
         }
