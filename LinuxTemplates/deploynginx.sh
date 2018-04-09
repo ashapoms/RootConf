@@ -13,5 +13,5 @@ echo "User home dir: $HOME"
 # update os
 apt-get update
 
-# install git
+# install nginx
 apt-get install -y nginx
