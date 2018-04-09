@@ -33,6 +33,7 @@
       <Visible>False</Visible>
     </None>
     <None Include="deploynginx.sh" />
+    <None Include="deployTemplate.sh" />
   </ItemGroup>
   <Target Name="GetReferenceAssemblyPaths" />
 </Project>
