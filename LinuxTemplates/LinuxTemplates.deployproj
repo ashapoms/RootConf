@@ -25,10 +25,12 @@
   <ItemGroup>
     <Content Include="challenge1.json" />
     <Content Include="challenge1.parameters.json" />
+    <None Include="challenge2.json" />
+    <None Include="challenge2.parameters.json" />
     <None Include="Deployment.targets">
       <Visible>False</Visible>
     </None>
-    <Content Include="Deploy-AzureResourceGroup.ps1" />
+    <None Include="deploynginx.sh" />
   </ItemGroup>
   <Target Name="GetReferenceAssemblyPaths" />
 </Project>
